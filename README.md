@@ -1,27 +1,20 @@
-# KairoForge — Natural Language Equity Intelligence
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Built by Dhruv Vaniawala | Age 16 | Surat, India
+# Run and deploy your AI Studio app
 
-## What Makes This Different
+This contains everything you need to run your app locally.
 
-Most stock screeners make you fill dropdowns.
-KairoForge lets you just ask.
+View your app in AI Studio: https://ai.studio/apps/9ed6dd2c-6676-4f22-96fa-303d2b78d376
 
-"Find me undervalued small cap pharma companies 
-with low PE"
+## Run Locally
 
-KairoForge interprets your intent, screens 
-Indian markets, and returns ranked results 
-with full analysis on any selected company.
+**Prerequisites:**  Node.js
 
-## Built By
 
-A 16-year-old who has been investing in equity 
-markets since age 10 and read Benjamin Graham 
-at 12. This is the tool I always wished existed.
-
-## Tech Stack
-- Python + Streamlit
-- Google AI Studio (natural language processing)
-- yfinance (market data)
-- DCF + Graham valuation engine
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
